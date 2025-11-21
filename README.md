@@ -51,3 +51,46 @@ Simple Docker command used:
 
 ```bash
 docker run -d --name mongodb -p 27017:27017 -v mongodbdata:/data/db mongo
+
+
+
+
+dish-manager/
+│
+├── backend/
+│   ├── src/
+│   │   ├── app.js
+│   │   ├── server.js
+│   │   ├── config/db.js
+│   │   ├── socket.js
+│   │   ├── controllers/dishController.js
+│   │   ├── routes/dishRoutes.js
+│   │   ├── models/Dish.js
+│   │   └── seed/
+│   │       ├── seed.js
+│   │       └── dishes.json
+│   ├── package.json
+│   └── .env.example
+│
+├── frontend/
+│   ├── src/
+│   │   ├── main.jsx
+│   │   ├── App.jsx
+│   │   ├── components/
+│   │   │   ├── DishCard.jsx
+│   │   │   └── DishList.jsx
+│   │   ├── services/
+│   │   │   ├── api.js
+│   │   │   └── socket.js
+│   │   └── styles.css
+│   ├── index.html
+│   ├── package.json
+│   └── vite.config.js
+│
+└── README.md
+
+
+
+
+
+
