@@ -1,0 +1,20 @@
+[
+  {
+    "dishId": "dish-1",
+    "dishName": "Margherita Pizza",
+    "imageUrl": "https://picsum.photos/seed/pizza/400/300",
+    "isPublished": true
+  },
+  {
+    "dishId": "dish-2",
+    "dishName": "Sushi Roll",
+    "imageUrl": "https://picsum.photos/seed/sushi/400/300",
+    "isPublished": false
+  },
+  {
+    "dishId": "dish-3",
+    "dishName": "Pasta Carbonara",
+    "imageUrl": "https://picsum.photos/seed/pasta/400/300",
+    "isPublished": true
+  }
+]
